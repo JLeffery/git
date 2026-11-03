@@ -1,0 +1,41 @@
+# R
+.Rhistory
+.RData
+.Rproj.user/
+.Rproj.user
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 分析中间结果与数据（体积大，按需保留）
+results/
+data/raw/
+data/interim/
+*.h5
+*.loom
+*.rds
+*.RData
+*.fastq
+*.fastq.gz
+*.bam
+*.bai
+*.vcf
+*.vcf.gz
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
